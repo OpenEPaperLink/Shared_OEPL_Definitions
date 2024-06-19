@@ -1,3 +1,5 @@
+#ifndef OEPL_DEFINITIONS_H
+#define OEPL_DEFINITIONS_H
 
 // OEPL TAG TYPES
 // The 'OG' tags in OEPL (mostly M2 tags)
@@ -179,3 +181,5 @@
 #define TAG_CUSTOM_SLIDESHOW_SLOW 0x08
 #define TAG_CUSTOM_SLIDESHOW_GLACIAL 0x09
 #define TAG_CUSTOM_MODE_WAIT_RFWAKE 0x20
+
+#endif

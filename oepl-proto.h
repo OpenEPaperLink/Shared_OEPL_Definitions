@@ -1,3 +1,5 @@
+#ifndef OEPL_PROTO_H
+#define OEPL_PROTO_H
 
 #ifndef __packed
 #define __packed __attribute__((packed))
@@ -194,3 +196,5 @@ struct imageDataTypeArgStruct {
     uint8_t preloadImage : 1;  // set to 0 will draw image immediately
     uint8_t specialType : 5;
 } __packed;
+
+#endif
