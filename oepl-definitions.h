@@ -1,3 +1,5 @@
+#ifndef OEPL_DEFINITIONS_H
+#define OEPL_DEFINITIONS_H
 
 // OEPL TAG TYPES
 // The 'OG' tags in OEPL (mostly M2 tags)
@@ -172,6 +174,10 @@
 #define CUSTOM_IMAGE_RF_WAKE 0x1C
 #define CUSTOM_IMAGE_GPIO 0x1D
 #define CUSTOM_IMAGE_NFC_WAKE 0x1E
+// Bit 5 is used as flag to indicate preload instead of immediate display
+#define CUSTOM_IMAGE_PRELOAD_FLAG 0x20
+// Bits 6-7 are allocated to select a custom LUT for this image
+#define CUSTOM_IMAGE_LUT_MASK 0xC0
 
 #define TAG_CUSTOM_MODE_NONE 0x00
 #define TAG_CUSTOM_SLIDESHOW_FAST 0x06
@@ -179,3 +185,5 @@
 #define TAG_CUSTOM_SLIDESHOW_SLOW 0x08
 #define TAG_CUSTOM_SLIDESHOW_GLACIAL 0x09
 #define TAG_CUSTOM_MODE_WAIT_RFWAKE 0x20
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef OEPL_ESP_AP_PROTO_H
+#define OEPL_ESP_AP_PROTO_H
+
 #ifndef __packed
 #define __packed __attribute__((packed))
 #endif
@@ -36,3 +39,4 @@ struct espTagReturnData {
     struct tagReturnData returnData;
 } __packed;
 
+#endif
