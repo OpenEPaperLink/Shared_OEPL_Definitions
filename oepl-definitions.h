@@ -59,6 +59,9 @@
 #define SOLUM_M3_BWR_58 0x41
 #define SOLUM_M3_BW_58 0x42
 #define SOLUM_M3_PEGHOOK_BWR_13 0x43
+#define SOLUM_M3_BW_58_Lite 0x44
+#define SOLUM_M3_BWR_22_LITE 0x45
+#define SOLUM_M3_BW_22 0x46
 
 // Types using modchip
 #define MODCHIP_HD150_BWR_58 0x50
@@ -87,6 +90,8 @@
 // Solum types - customer data byte 16 in M3 (nRF) UICR
 #define STYPE_SIZE_016 0x40
 #define STYPE_SIZE_022 0x41
+#define STYPE_SIZE_022_BW 0x20
+#define STYPE_SIZE_022_LITE 0x51
 #define STYPE_SIZE_026 0x43
 #define STYPE_SIZE_029 0x42
 #define STYPE_SIZE_029_BW 0x4E
