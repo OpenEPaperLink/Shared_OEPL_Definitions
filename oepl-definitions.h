@@ -20,7 +20,7 @@
 
 // Opticon Tags
 #define OPTICON_BWRY_22 0x06
-#define OPTICON_BWRY_22 0x07
+#define OPTICON_BWRY_29 0x07
 #define OPTICON_BWR_42 0x08
 #define OPTICON_BWR_75 0x09
 
