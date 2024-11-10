@@ -14,6 +14,7 @@
 #define SOLUM_NODISPLAY 0xFF
 #define ESP32_C6 0xC6
 
+#define SOLUM_M2_BWR_22 0x03
 #define SOLUM_M2_BWR_26 0x04
 #define SOLUM_M2_BWR_74 0x05
 
