@@ -14,8 +14,14 @@
 #define SOLUM_NODISPLAY 0xFF
 #define ESP32_C6 0xC6
 
+#define SOLUM_M2_BWR_26 0x04
+#define SOLUM_M2_BWR_74 0x05
 
-
+// Opticon Tags
+#define OPTICON_BWRY_22 0x06
+#define OPTICON_BWRY_22 0x07
+#define OPTICON_BWR_42 0x08
+#define OPTICON_BWR_75 0x09
 
 // overflow
 #define SOLUM_M2_BWR_16 0x20
@@ -148,6 +154,9 @@
 #define CMD_ENTER_NORMAL_MODE 0x0F
 #define CMD_ENTER_WAIT_RFWAKE 0x20
 #define CMD_GET_BATTERY_VOLTAGE 0x21
+#define CMD_LED_NOBLINK 0x30
+#define CMD_LED_BLINK_1 0x31
+
 
 #define WAKEUP_REASON_TIMED 0
 #define WAKEUP_REASON_GPIO 2
