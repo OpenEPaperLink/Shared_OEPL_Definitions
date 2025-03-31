@@ -69,6 +69,9 @@
 #define SOLUM_M3_BW_58_Lite 0x44
 #define SOLUM_M3_BWR_22_LITE 0x45
 #define SOLUM_M3_BW_22 0x46
+#define SOLUM_M3_BWR_27 0x47
+#define SOLUM_M3_BWR_581 0x48
+
 
 // Types using modchip
 #define MODCHIP_HD150_BWR_58 0x50
@@ -100,6 +103,7 @@
 #define STYPE_SIZE_022_BW 0x20
 #define STYPE_SIZE_022_LITE 0x51
 #define STYPE_SIZE_026 0x43
+#define STYPE_SIZE_027 0x44
 #define STYPE_SIZE_029 0x42
 #define STYPE_SIZE_029_BW 0x4E
 #define STYPE_SIZE_029_FREEZER 0x22
@@ -112,6 +116,7 @@
 #define STYPE_SIZE_097 0x64
 #define STYPE_SIZE_013 0x4D
 #define STYPE_SIZE_116 0x65 // like, maybe? not a clue. For now we'll use this type to indicate 11.6" in the UICR
+#define STYPE_SIZE_116B 0x4A // confirmed
 
 
 // Capability flags
