@@ -71,6 +71,7 @@
 #define SOLUM_M3_BW_22 0x46
 #define SOLUM_M3_BWR_27 0x47
 #define SOLUM_M3_BWR_581 0x48
+#define SOLUM_M3_BWR_581_V2 0x49
 
 
 // Types using modchip
