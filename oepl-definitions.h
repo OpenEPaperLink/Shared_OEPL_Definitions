@@ -119,6 +119,8 @@
 #define STYPE_SIZE_116 0x65 // like, maybe? not a clue. For now we'll use this type to indicate 11.6" in the UICR
 #define STYPE_SIZE_116B 0x4A // confirmed
 
+// Custom UICR Type
+#define STYPE_SIZE_058_CUSTOM 0xA0
 
 // Capability flags
 #define CAPABILITY_HAS_LED 0x01
