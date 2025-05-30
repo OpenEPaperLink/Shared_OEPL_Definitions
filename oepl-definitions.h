@@ -34,7 +34,9 @@
 #define SOLUM_M2_BW_75 0x26
 #define SOLUM_M2_BW_29 0x27
 
-
+#define SOLUM_M3_BWRY_16 0x28
+#define SOLUM_M3_BWRY_24 0x29
+#define SOLUM_M3_BWRY_30 0x2A
 
 #define SOLUM_M3_BWR_97 0x2E
 #define SOLUM_M3_BWR_43 0x2F
@@ -117,6 +119,9 @@
 #define STYPE_SIZE_097 0x64
 #define STYPE_SIZE_013 0x4D
 #define STYPE_SIZE_116 0x65 // like, maybe? not a clue. For now we'll use this type to indicate 11.6" in the UICR
+#define STYPE_SIZE_16_BWRY 0x66
+#define STYPE_SIZE_24_BWRY 0x67
+#define STYPE_SIZE_30_BWRY 0x68
 #define STYPE_SIZE_116B 0x4A // confirmed
 
 // Custom UICR Type
