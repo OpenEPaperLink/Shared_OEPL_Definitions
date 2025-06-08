@@ -10,6 +10,7 @@
 #define SOLUM_42_UCVAR 0x12
 #define SOLUM_SEG_UK 0xF0
 #define SOLUM_SEG_EU 0xF1
+#define SOLUM_CONFIGMODE 0xFA
 #define RESERVED_TESTING 0xFE
 #define SOLUM_NODISPLAY 0xFF
 #define ESP32_C6 0xC6
@@ -153,6 +154,7 @@
 #define DATATYPE_NFC_RAW_CONTENT 0xA0      // raw memory content for the NT3H1101
 #define DATATYPE_NFC_URL_DIRECT 0xA1       // URL format for NT3H1101
 #define DATATYPE_TAG_CONFIG_DATA 0xA8      // Config data for tag
+#define DATATYPE_TAG_EPD_CONFIG 0xA9       // Config data for EPD
 #define DATATYPE_COMMAND_DATA 0xAF         // Command for the tag to execute  (contained in availableData Reply)
 #define DATATYPE_CUSTOM_LUT_OTA 0xB0       // Custom OTA updated LUT
 #define DATATYPE_TIME_RAW_DATA 0xC0       // Used for showning the time and preparation for more data
