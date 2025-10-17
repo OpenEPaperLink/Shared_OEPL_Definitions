@@ -39,6 +39,10 @@
 #define SOLUM_M3_BWRY_24 0x29
 #define SOLUM_M3_BWRY_30 0x2A
 
+#define SOLUM_M3_BWRY_29 0x2B
+#define SOLUM_M3_BWRY_43 0x2C
+#define SOLUM_M3_BWRY_75 0x2D
+
 #define SOLUM_M3_BWR_97 0x2E
 #define SOLUM_M3_BWR_43 0x2F
 
@@ -75,6 +79,7 @@
 #define SOLUM_M3_BWR_27 0x47
 #define SOLUM_M3_BWR_581 0x48
 #define SOLUM_M3_BWR_581_V2 0x49
+#define SOLUM_M3_BWRY_16_HIGHRES 0x4A
 
 
 // Types using modchip
@@ -101,7 +106,7 @@
 #define GICI_BLE_UNKNOWN 0xBF
 #define ATC_MI_THERMOMETER 0xBE
 
-// Solum types - customer data byte 16 in M3 (nRF) UICR
+// Solum types - customer data byte 0x16 in M3 (nRF) UICR
 #define STYPE_SIZE_016 0x40
 #define STYPE_SIZE_022 0x41
 #define STYPE_SIZE_022_BW 0x20
@@ -121,8 +126,12 @@
 #define STYPE_SIZE_013 0x4D
 #define STYPE_SIZE_116 0x65 // like, maybe? not a clue. For now we'll use this type to indicate 11.6" in the UICR
 #define STYPE_SIZE_16_BWRY 0x66
+#define STYPE_SIZE_16_BWRY_HIGHRES 0x73
 #define STYPE_SIZE_24_BWRY 0x67
+#define STYPE_SIZE_29_BWRY 0x76 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_30_BWRY 0x68
+#define STYPE_SIZE_43_BWRY 0x79 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
+#define STYPE_SIZE_75_BWRY 0x7B // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_116B 0x4A // confirmed
 
 // Custom UICR Type
