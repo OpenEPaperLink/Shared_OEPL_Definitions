@@ -41,8 +41,8 @@
 
 #define SOLUM_M3_BWRY_29 0x2B
 #define SOLUM_M3_BWRY_43 0x2C
-#define SOLUM_M3_BWRY_75 0x2D
 
+#define SOLUM_M3_BWR_122 0x2D
 #define SOLUM_M3_BWR_97 0x2E
 #define SOLUM_M3_BWR_43 0x2F
 
@@ -81,6 +81,7 @@
 #define SOLUM_M3_BWR_581_V2 0x49
 #define SOLUM_M3_BWRY_16_HIGHRES 0x4A
 #define SOLUM_M3_BWRY_22 0x4B
+#define SOLUM_M3_BWRY_75 0x4C
 
 
 // Types using modchip
