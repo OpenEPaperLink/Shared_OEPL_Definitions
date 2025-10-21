@@ -80,6 +80,7 @@
 #define SOLUM_M3_BWR_581 0x48
 #define SOLUM_M3_BWR_581_V2 0x49
 #define SOLUM_M3_BWRY_16_HIGHRES 0x4A
+#define SOLUM_M3_BWRY_22 0x4B
 
 
 // Types using modchip
@@ -127,6 +128,7 @@
 #define STYPE_SIZE_116 0x65 // like, maybe? not a clue. For now we'll use this type to indicate 11.6" in the UICR
 #define STYPE_SIZE_16_BWRY 0x66
 #define STYPE_SIZE_16_BWRY_HIGHRES 0x73
+#define STYPE_SIZE_22_BWRY 0x74 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_24_BWRY 0x67
 #define STYPE_SIZE_29_BWRY 0x76 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_30_BWRY 0x68
