@@ -82,6 +82,7 @@
 #define SOLUM_M3_BWRY_16_HIGHRES 0x4A
 #define SOLUM_M3_BWRY_22 0x4B
 #define SOLUM_M3_BWRY_75 0x4C
+#define SOLUM_M3_BWRY_116 0x4D
 
 
 // Types using modchip
@@ -135,6 +136,7 @@
 #define STYPE_SIZE_30_BWRY 0x68
 #define STYPE_SIZE_43_BWRY 0x79 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_75_BWRY 0x7B // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
+#define STYPE_SIZE_116_BWRY 0x7D // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_116B 0x4A // confirmed
 
 // Custom UICR Type
