@@ -10,6 +10,7 @@
 #define SOLUM_42_UCVAR 0x12
 #define SOLUM_SEG_UK 0xF0
 #define SOLUM_SEG_EU 0xF1
+#define SOLUM_CONFIGMODE 0xFA
 #define RESERVED_TESTING 0xFE
 #define SOLUM_NODISPLAY 0xFF
 #define ESP32_C6 0xC6
@@ -34,8 +35,14 @@
 #define SOLUM_M2_BW_75 0x26
 #define SOLUM_M2_BW_29 0x27
 
+#define SOLUM_M3_BWRY_16 0x28
+#define SOLUM_M3_BWRY_24 0x29
+#define SOLUM_M3_BWRY_30 0x2A
 
+#define SOLUM_M3_BWRY_29 0x2B
+#define SOLUM_M3_BWRY_43 0x2C
 
+#define SOLUM_M3_BWR_122 0x2D
 #define SOLUM_M3_BWR_97 0x2E
 #define SOLUM_M3_BWR_43 0x2F
 
@@ -72,6 +79,10 @@
 #define SOLUM_M3_BWR_27 0x47
 #define SOLUM_M3_BWR_581 0x48
 #define SOLUM_M3_BWR_581_V2 0x49
+#define SOLUM_M3_BWRY_16_HIGHRES 0x4A
+#define SOLUM_M3_BWRY_22 0x4B
+#define SOLUM_M3_BWRY_75 0x4C
+#define SOLUM_M3_BWRY_116 0x4D
 
 
 // Types using modchip
@@ -98,7 +109,7 @@
 #define GICI_BLE_UNKNOWN 0xBF
 #define ATC_MI_THERMOMETER 0xBE
 
-// Solum types - customer data byte 16 in M3 (nRF) UICR
+// Solum types - customer data byte 0x16 in M3 (nRF) UICR
 #define STYPE_SIZE_016 0x40
 #define STYPE_SIZE_022 0x41
 #define STYPE_SIZE_022_BW 0x20
@@ -117,6 +128,15 @@
 #define STYPE_SIZE_097 0x64
 #define STYPE_SIZE_013 0x4D
 #define STYPE_SIZE_116 0x65 // like, maybe? not a clue. For now we'll use this type to indicate 11.6" in the UICR
+#define STYPE_SIZE_16_BWRY 0x66
+#define STYPE_SIZE_16_BWRY_HIGHRES 0x73
+#define STYPE_SIZE_22_BWRY 0x74 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
+#define STYPE_SIZE_24_BWRY 0x67
+#define STYPE_SIZE_29_BWRY 0x76 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
+#define STYPE_SIZE_30_BWRY 0x68
+#define STYPE_SIZE_43_BWRY 0x79 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
+#define STYPE_SIZE_75_BWRY 0x7B // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
+#define STYPE_SIZE_116_BWRY 0x7D // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_116B 0x4A // confirmed
 
 // Custom UICR Type
@@ -148,6 +168,7 @@
 #define DATATYPE_NFC_RAW_CONTENT 0xA0      // raw memory content for the NT3H1101
 #define DATATYPE_NFC_URL_DIRECT 0xA1       // URL format for NT3H1101
 #define DATATYPE_TAG_CONFIG_DATA 0xA8      // Config data for tag
+#define DATATYPE_TAG_EPD_CONFIG 0xA9       // Config data for EPD
 #define DATATYPE_COMMAND_DATA 0xAF         // Command for the tag to execute  (contained in availableData Reply)
 #define DATATYPE_CUSTOM_LUT_OTA 0xB0       // Custom OTA updated LUT
 #define DATATYPE_TIME_RAW_DATA 0xC0        // Used for showning the time and preparation for more data
@@ -179,6 +200,7 @@
 #define WAKEUP_REASON_NFC 3
 #define WAKEUP_REASON_BUTTON1 4
 #define WAKEUP_REASON_BUTTON2 5
+#define WAKEUP_REASON_BUTTON3 6
 #define WAKEUP_REASON_RF 0x0F
 #define WAKEUP_REASON_FAILED_OTA_FW 0xE0
 #define WAKEUP_REASON_FIRSTBOOT 0xFC
@@ -202,6 +224,7 @@
 #define CUSTOM_IMAGE_SLIDESHOW 0x0F  // image is part of a slideshow
 #define CUSTOM_IMAGE_BUTTON1 0x10
 #define CUSTOM_IMAGE_BUTTON2 0x11
+#define CUSTOM_IMAGE_BUTTON3 0x12
 // UNUSED: 0x12 to 0x1B
 #define CUSTOM_IMAGE_RF_WAKE 0x1C
 #define CUSTOM_IMAGE_GPIO 0x1D
