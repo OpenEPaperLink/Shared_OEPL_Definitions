@@ -55,7 +55,6 @@
 #define SOLUM_M3_BWY_26 0x3A
 #define SOLUM_M3_BWR_29 0x33	// the 'standard' SSD1619 version
 #define SOLUM_M3_BWY_29 0x3B
-#define SOLUM_M3_BW_29 0x40
 #define SOLUM_M3_BWR_42 0x34
 #define SOLUM_M3_BWY_42 0x3C
 #define SOLUM_M3_BWR_58 0x41
@@ -83,6 +82,7 @@
 #define SOLUM_M3_BWRY_22 0x4B
 #define SOLUM_M3_BWRY_75 0x4C
 #define SOLUM_M3_BWRY_116 0x4D
+#define SOLUM_M3_BW_26 0x4E
 
 
 // Types using modchip
@@ -115,6 +115,7 @@
 #define STYPE_SIZE_022_BW 0x20
 #define STYPE_SIZE_022_LITE 0x51
 #define STYPE_SIZE_026 0x43
+#define STYPE_SIZE_026_FREEZER 0x21
 #define STYPE_SIZE_027 0x44
 #define STYPE_SIZE_029 0x42
 #define STYPE_SIZE_029_BW 0x4E
