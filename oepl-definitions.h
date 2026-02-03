@@ -109,6 +109,12 @@
 #define GICI_BLE_UNKNOWN 0xBF
 #define ATC_MI_THERMOMETER 0xBE
 
+// Chroma SubGhz types
+#define CHROMA_74          0x80
+#define CHROMA_AEON_74     0x81  // Also Chroma 74H+
+#define CHROMA_29          0x82
+#define CHROMA_42          0x83
+
 // Solum types - customer data byte 0x16 in M3 (nRF) UICR
 #define STYPE_SIZE_016 0x40
 #define STYPE_SIZE_022 0x41
