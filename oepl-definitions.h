@@ -84,6 +84,7 @@
 #define SOLUM_M3_BWRY_116 0x4D
 #define SOLUM_M3_BW_26 0x4E
 #define SOLUM_M3_BWRY_26 0x4F
+#define SOLUM_M3_BWRY_42 0x90
 
 
 // Types using modchip
@@ -143,6 +144,7 @@
 #define STYPE_SIZE_26_BWRY 0x75 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/17
 #define STYPE_SIZE_29_BWRY 0x76 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_30_BWRY 0x68
+#define STYPE_SIZE_42_BWRY 0x78 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/15
 #define STYPE_SIZE_43_BWRY 0x79 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_75_BWRY 0x7B // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_116_BWRY 0x7D // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
