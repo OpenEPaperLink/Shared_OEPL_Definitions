@@ -118,6 +118,16 @@
 #define CHROMA_29          0x82
 #define CHROMA_42          0x83
 
+// Hardware IDs 0xA0 -> 0xA7 are reserved for user defined custom types
+#define USER_HWID_A0       0xA0
+#define USER_HWID_A1       0xA1
+#define USER_HWID_A2       0xA2
+#define USER_HWID_A3       0xA3
+#define USER_HWID_A4       0xA4
+#define USER_HWID_A5       0xA5
+#define USER_HWID_A6       0xA6
+#define USER_HWID_A7       0xA7
+
 // Solum types - customer data byte 0x16 in M3 (nRF) UICR
 #define STYPE_SIZE_016 0x40
 #define STYPE_SIZE_022 0x41
