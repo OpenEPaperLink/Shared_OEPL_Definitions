@@ -86,6 +86,7 @@
 #define SOLUM_M3_BWRY_26 0x4F
 #define SOLUM_M3_BWRY_42 0x90
 #define SOLUM_M3_BWRY_16_HIGHRES_ROTATED 0x91
+#define SOLUM_M3_BWRY_35 0x92
 
 
 // Types using modchip
