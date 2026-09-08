@@ -87,6 +87,7 @@
 #define SOLUM_M3_BWRY_42 0x90
 #define SOLUM_M3_BWRY_16_HIGHRES_ROTATED 0x91
 #define SOLUM_M3_BWRY_35 0x92
+#define SOLUM_M3_BWRY_60 0x93
 
 
 // Types using modchip
@@ -160,6 +161,7 @@
 #define STYPE_SIZE_35_BWRY 0x77
 #define STYPE_SIZE_42_BWRY 0x78 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/15
 #define STYPE_SIZE_43_BWRY 0x79 // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
+#define STYPE_SIZE_60_BWRY 0x7A //Guess work, provided tag is write only. could be changed if someone have the info
 #define STYPE_SIZE_75_BWRY 0x7B // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_116_BWRY 0x7D // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_116B 0x4A // confirmed
