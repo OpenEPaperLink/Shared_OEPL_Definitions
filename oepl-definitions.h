@@ -88,6 +88,7 @@
 #define SOLUM_M3_BWRY_16_HIGHRES_ROTATED 0x91
 #define SOLUM_M3_BWRY_35 0x92
 #define SOLUM_M3_BWRY_60 0x93
+#define SOLUM_M3_BWRY_35_HIGHRES 0x53 // Same spec as 'RTL' (see https://github.com/OpenEPaperLink/OpenEPaperLink/blob/master/resources/tagtypes/53.json)
 
 
 // Types using modchip
@@ -165,6 +166,7 @@
 #define STYPE_SIZE_75_BWRY 0x7B // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_116_BWRY 0x7D // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/11
 #define STYPE_SIZE_116B 0x4A // confirmed
+#define STYPE_SIZE_35_BWRY_HIGHRES 0x9B // https://github.com/OpenEPaperLink/Tag_FW_EFR32xG22/issues/35
 
 // Custom UICR Type
 #define STYPE_SIZE_058_CUSTOM 0xA0
