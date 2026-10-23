@@ -120,6 +120,7 @@
 #define CHROMA_AEON_74     0x81  // Also Chroma 74H+
 #define CHROMA_29          0x82
 #define CHROMA_42          0x83
+#define CHROMA_60          0x84
 
 // Hardware IDs 0xA0 -> 0xA7 are reserved for user defined custom types
 #define USER_HWID_A0       0xA0
