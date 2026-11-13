@@ -123,6 +123,7 @@
 #define CHROMA_42          0x83
 #define CHROMA_60          0x84
 #define CHROMA_21          0x85
+#define CHROMA_74_BWY      0x86  // Chroma 74 black/white/yellow; CHROMA_74 is black/white/red
 
 // Hardware IDs 0xA0 -> 0xA7 are reserved for user defined custom types
 #define USER_HWID_A0       0xA0
